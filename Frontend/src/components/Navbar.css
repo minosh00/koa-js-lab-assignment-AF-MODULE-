@@ -1,0 +1,52 @@
+nav {
+    position: fixed;
+    top: -10;
+    width: 100%;
+    height: 60px;
+}
+
+.list {
+    list-style-type: none;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+.item {
+    margin-right: 30px;
+    font-size: 20px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+
+.register{
+    margin-left :900px;
+    font-size: 20px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.register1{
+    margin-left :500px;
+    font-size: 20px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+}
+
+
+.btn-toolbar .btn:nth-child(n+2) {
+    margin-left: 8px;
+  }
+  
